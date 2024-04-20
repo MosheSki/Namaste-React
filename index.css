@@ -1,3 +1,13 @@
+/* The CSS id Selector  */
+
 #heading {
   color: red;
+}
+
+/* The CSS className Selector  */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

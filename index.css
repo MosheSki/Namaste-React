@@ -40,6 +40,10 @@
   padding: 10px;
 }
 
+.search-btn {
+  cursor: pointer;
+}
+
 .res-logo {
   width: 100%;
   height: 50%;
@@ -66,4 +70,9 @@
 .login-btn {
   margin: 5 20px;
   cursor: pointer;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
 }

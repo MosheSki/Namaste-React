@@ -18,7 +18,7 @@ const RestaurantMenu = () => {
         resId
     );
     const json = await data.json();
-    console.log(json);
+    // console.log(json);
     setResInfo(json.data);
   };
 
@@ -35,7 +35,7 @@ const RestaurantMenu = () => {
 
   const { itemCards } =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-  console.log(itemCards);
+  //   console.log(itemCards);
 
   return (
     <div className="menu">

@@ -2,7 +2,7 @@ import RestaurantCard, { withPromotedLabel } from "./RestaurantCard.js";
 import { useState, useEffect, useContext } from "react"; //React Hooks
 import Shimmer from "./Shimmer.js";
 import { Link } from "react-router-dom";
-import useOnlineStatus from "../utils/useOnlineStatus.js";
+import useOnlineStatus from "../utils/customHooks/useOnlineStatus.js";
 import UserContext from "../utils/UserContext.js";
 
 function filterData(searchText, listOfRestaurants) {
@@ -56,6 +56,7 @@ const Body = () => {
       <div className="flex">
         <div className="search m-4 p-4">
           <input
+            data-testid="searchInput"
             type="text"
             className="border border-solid border-black"
             placeholder="Search"

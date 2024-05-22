@@ -10,7 +10,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Shimmer from "./components/Shimmer.js";
 import UserContext from "./utils/UserContext.js";
 import { Provider } from "react-redux";
-import appStore from "./utils/appStore.js";
+import appStore from "./utils/reduxStore/appStore.js";
 import Cart from "./components/Cart.js";
 // import Grocery from "./components/Grocery.js";
 
